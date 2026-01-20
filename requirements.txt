@@ -1,0 +1,10 @@
+streamlit
+pandas
+requests
+langchain-openai
+langchain-community
+chromadb
+pypdf
+pysqlite3-binary
+python-dotenv
+tiktoken
