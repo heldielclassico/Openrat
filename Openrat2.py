@@ -17,7 +17,9 @@ from pypdf import PdfReader
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_community.vectorstores import Chroma
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from langchain.docstore.document import Document
+# Ubah dari: from langchain.docstore.document import Document
+# Menjadi:
+from langchain_core.documents import Document
 
 # --- 1. KONFIGURASI HALAMAN ---
 st.set_page_config(page_title="Asisten POLTESA", page_icon="🎓")
