@@ -3,8 +3,10 @@ pandas
 requests
 langchain-openai
 langchain-community
+langchain-text-splitters
 chromadb
 pypdf
 pysqlite3-binary
 python-dotenv
 tiktoken
+
