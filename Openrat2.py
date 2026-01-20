@@ -16,7 +16,7 @@ import io
 from pypdf import PdfReader
 from langchain_openai import ChatOpenAI, OpenAIEmbeddings
 from langchain_community.vectorstores import Chroma
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain.docstore.document import Document
 
 # --- 1. KONFIGURASI HALAMAN ---
